@@ -5,6 +5,18 @@ void main() {
   runApp(const RollDice());
 }
 
+class Dice extends StatelessWidget {
+  const Dice({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      title: "RollDice",
+
+    );
+  }
+}
+
 class RollDice extends StatefulWidget {
   const RollDice({super.key});
 
